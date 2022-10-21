@@ -1135,5 +1135,12 @@
         document.getElementById("myBody").classList.toggle("dark");
       };
     </script>
+    <script>
+      document
+        .querySelectorAll("a.btn.btn-outline-primary.theme-button")
+        .forEach((el) => {
+          el.classList.add("custom-button");
+        });
+    </script>
   </body>
 </html>
