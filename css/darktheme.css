@@ -1,0 +1,55 @@
+.dark #myBody {
+    background-color: black;
+    color: white;
+}
+
+ /* Dark Theme*/
+ .dark #switchButton {
+    background-color: black;
+  }
+  .dark #switchButton .fa-sun {
+    display: block;
+    color: white;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+  }  
+
+  .dark .btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+  .dark #switchButton .fa-moon {
+    display: none;
+  }
+
+  /* end mẫu  */
+
+.dark header {
+    background-color: black;
+    color: white;
+}
+
+.dark header .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.dark .introduction {
+    background-color: black;
+}
+
+.dark .benefit {
+    background-color: black;
+    color: white;
+}
+
+
+.dark .about,
+.dark .more,
+.dark .solutions,
+.dark .faq,
+.dark .feature,
+.dark .contact,
+.dark .footer {
+    background-color: black;
+}
